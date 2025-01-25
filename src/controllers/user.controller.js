@@ -5,7 +5,7 @@ import {
 } from "../methods/authenticationMethods.js";
 import { uploadImageToCloudinary } from "../methods/cloudinary.methods.js";
 import { sentEmail } from "../methods/nodemailer.methods.js";
-import { userModel } from "../models/user.models.js";
+import { userModel } from "../models/user.model.js";
 
 const registerUser = async (req, res) => {
     const { name, email, password } = req.body;

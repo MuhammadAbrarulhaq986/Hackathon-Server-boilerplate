@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(express.json());
 const PORT = process.env.PORT || 3000;
 app.get("/", async (req, res) => {
-    res.send("Hello World!");
+    res.send("_____Hello BOSS MAN_____");
 });
 
 app.use("/api/v1/auth", authRoutes);
